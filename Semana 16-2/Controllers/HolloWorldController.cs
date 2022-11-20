@@ -13,14 +13,16 @@ namespace Semana_16_2.Controllers
         {
             return View();
         }
-        public string Welcome()
+        public IActionResult Bienvenida(String name, int numTimes = 1)
         {
-            return "Estas es la accion por defevto";
+            ViewData["name"] = "hola mundo {name}";
+            ViewData["numTimes"] = numTimes;
+            return View();
         }
 
-        public string Parameters(string name, int edad)
+        public string Parameters(string name, int numTimes=1)
         {
-            return HtmlEncoder.Default.Encode($"HOLA{name}, tu edada es {edad} años");
+            return HtmlEncoder.Default.Encode($"HOLA{name},su numero de intentos es {numTimes}");
         }
     }
 }
