@@ -15,7 +15,7 @@ namespace Semana_16_2.Controllers
         }
         public IActionResult Bienvenida(String name, int numTimes = 1)
         {
-            ViewData["name"] = "hola mundo {name}";
+            ViewData["name"] = "hola " + name;
             ViewData["numTimes"] = numTimes;
             return View();
         }
