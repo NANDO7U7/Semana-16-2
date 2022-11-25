@@ -8,6 +8,7 @@ namespace Semana_16_2.Models
 {
     public class Movie
     {
+            
         public int Id { get; set; }
         public string? Title { get; set; }
         [DataType(DataType.Date)]
@@ -16,3 +17,4 @@ namespace Semana_16_2.Models
         public decimal Price { get; set; }
     }
 }
+
