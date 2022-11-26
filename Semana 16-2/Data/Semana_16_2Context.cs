@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Semana_16_2.Data
 {
-    public class Semana16_2Context
+    public class Semana_16_2Context : DbContext
     {
-        public Semana16_2Context(DbContextOptions<Semana16_2Context> options) : base(options)
+        public Semana_16_2Context(DbContextOptions<Semana_16_2Context> options) : base(options)
         {
 
         }
@@ -18,4 +18,4 @@ namespace Semana_16_2.Data
 
     }
 }
-}
+

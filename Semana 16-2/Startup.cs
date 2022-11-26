@@ -27,8 +27,8 @@ namespace Semana_16_2
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<Semana16_2Context>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("Semana16_2Context")));
+            services.AddDbContext<Semana_16_2Context>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("Semana_16_2Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
