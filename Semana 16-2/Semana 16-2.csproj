@@ -20,6 +20,8 @@
   <ItemGroup>
     <Compile Include="Migrations\20221126024018_InitalCreate.cs" />
     <Compile Include="Migrations\20221126024018_InitalCreate.Designer.cs" />
+    <Compile Include="Migrations\20221203012027_AddNewEntity.cs" />
+    <Compile Include="Migrations\20221203012027_AddNewEntity.Designer.cs" />
     <Compile Include="Migrations\Semana_16_2ContextModelSnapshot.cs" />
   </ItemGroup>
 
